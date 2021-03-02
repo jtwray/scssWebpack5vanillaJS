@@ -1,0 +1,85 @@
+﻿// Core variables and mixins
+
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+//Site Color Scheme
+$site-primary-color: #69BE28;
+$font-size-base: 16px;
+
+//Fonts Overrides
+$font-family-sans-serif: "museo-sans-n4","museo-sans",Verdana,Arial,sans-serif !default;
+$font-family-base: "museo-sans-n4","museo-sans",Verdana,Arial,sans-serif;
+
+//Navbar Overrides
+$navbar-default-bg: #69BE28;
+$navbar-default-color: white;
+$navbar-default-brand-color: $navbar-default-color;
+$navbar-default-link-color: $navbar-default-color;
+$navbar-default-brand-hover-color: #F4952F;
+$navbar-default-link-hover-color: $navbar-default-brand-hover-color;
+$navbar-default-toggle-icon-bar-bg:  white;
+
+$navbar-inverse-bg: #9641D7;
+$navbar-inverse-brand-color: white;
+
+//Button Overrides
+$btn-primary-bg:            #00759A;
+$border-radius-base:        1px;
+$btn-border-radius-base:    2px;
+$border-radius-large:       2px;
+$border-radius-small:       2px;
+$btn-border-radius-large:   2px;
+
+
+
+//Form Overrides
+$input-border-radius: 2px;
+
+//Headers
+$font-size-h1: 28px;
+$font-size-h2: 26px; 
+$font-size-h3: 24px;
+$font-size-h4: 22px;
+$font-size-h5: 20px;
+$font-size-h6: 18px;
+
+//Pills
+$nav-pills-border-radius: 2px;
+
+//Link color
+$link-color: green; 
+$link-hover-color: orange;
+
+//Breadcrumb
+$breadcrumb-bg: white;
+$breadcrumb-separator: ">";
+//Footer
+$footer-height: 100px;
+
+//Progress Bar
+$progress-bar-bg: #00AF41;
+
+/////////////////////////////////////////////////
+//THP Brand Colors
+//
+//Brand colors
+
+$hp-green: #77bc1f;
+$lime-green: #91c801;
+$light-lime-green: #90c94b;
+$dark-green: #009944;
+$white: #FFF;
+$black: #333;
+
+//Utility colors
+$util-dark-grey: #53575a;
+$util-orange: #cd922c;
+$util-blue: #216d8d;
+$util-medium-grey: #888b8d;
+$util-light-grey: #f0f0f0;
+
+$exec-card-blue: #007298;
+$exec-card-light-orange: #C9920e;
+$exec-card-bright-orange: #dd5f13;

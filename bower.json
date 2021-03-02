@@ -1,0 +1,19 @@
+{
+  "name": "redcard-viewer",
+  "private": true,
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "bootstrap-sass": "3.3.5",
+    "font-awesome": "4.4.0",
+    "jquery-legacy": "jquery#1.11.3"
+  },
+  
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower.*"
+  ]
+}

@@ -1,0 +1,1547 @@
+﻿@import "thp-overrides";
+
+html{
+    height: 100%;
+ 
+}
+body{
+    height: 100%;
+}
+
+header{
+    background-color: $site-primary-color; 
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    a{
+        color: white;
+    }
+}
+.body-content{
+    background: url('/Content/img/diamonds.svg') no-repeat top 8em left; 
+    min-height: 500px;
+}
+.sub-header {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    line-height: 60px;
+
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+        margin: 3rem 0;
+    }
+}
+
+.page-title{
+    color: gray !important; 
+    font-size: 20px; 
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.logged-in
+{
+    font-size: $font-size-base;
+    text-align:center;
+    line-height:25px;
+}
+
+.application-name{
+    font-size: $font-size-base;
+    text-align: center;
+    line-height: 25px;
+}
+
+h1{
+    color: green !important;
+}
+
+h2{
+    color: green !important;
+    padding-bottom: 1em;
+}
+
+h3{
+    color: #F4952F !important;
+}
+
+h4{
+    color: #89C541 !important;
+}
+
+h5{
+    color: #1a1da5 !important;   
+}
+
+h6{
+    color: #F4952F !important;
+    
+}
+
+
+
+//footer
+footer {
+    //position: absolute;
+    //bottom: 0;
+    height: $footer-height;
+    background-image: url("/Content/img/bg_contemporary-china_apple.gif"); 
+    margin: 0 auto 0 auto;
+    width: 100%;
+  
+}
+
+footer .sub{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #6fa231;
+    color: #e0e6d9;
+    font-size: 14px;
+
+}
+
+.main-section{
+    
+    border-left: 1px solid #e3e3e3;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.client-section{
+    padding: 0px !important;
+    background-color: white;
+    margin: auto;
+}
+
+#main-content{
+    min-height: 890px;
+    overflow:hidden;
+}
+.page-bottom{
+    margin-left: 10%;
+    min-height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.page-bottom a{
+    color: white;
+}
+.page-bottom a:hover{
+    color: #F4952F;
+}
+
+.fa-medium-icon{
+    font-size: $font-size-base + 10 !important;
+}
+.fa-small-icon{
+    font-size: $font-size-base + 5 !important;
+    min-width: 30px;
+}
+
+.fa-orange{
+    color: #F4952F;
+}
+
+.package{
+   
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: $border-radius-base;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 100%;
+}
+
+.package-default{
+    border-color: $panel-default-border;
+}
+
+.package-label{
+    background-color: $panel-default-heading-bg;
+    text-align: center;
+    border-left-color: $panel-default-border;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.package-details{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+.logo
+{
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.large-filler{
+    margin-top: 50px;
+}
+
+.medium-filler{
+    margin-top: 25px;
+}
+
+.small-filler{
+    margin-top: 10px;
+}
+
+.sidebar-nav{
+    padding:0px;
+    background-color: #f5f5f5;
+}
+.sidebar-body{
+    
+}
+
+.client-logo{
+    background-color: white;
+    text-align:center;
+    padding: 0px;
+}
+
+.sidebar-nav-section
+{
+    border-top: solid;
+    border-bottom-width: 1px;
+    border-bottom: solid;
+    border-color: orange;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-nav-header{
+    padding-left: 10px;
+}
+
+.plugin-heading{
+    margin-top: 0px !important;
+    padding-top:0px;
+}
+.benefit-header{
+    margin-bottom: 10px;
+}
+
+
+//Custom Panel styles
+.panel-body-success{
+    background-color: #F5FCF8;
+}
+.capital {
+    text-transform: capitalize;
+}
+
+
+//Custom Tab styles
+/*.tab-content{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ddd;
+    border-right-style: solid;
+    border-right-color: #ddd;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    border-bottom-width: 1px;
+    
+}*/
+
+.mobile_menu_button {
+    display: none; 
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar-nav {   
+        display: none;
+
+        &.expanded {  
+            display: block; 
+        }
+    }
+    .mobile_menu_button {
+        display: block;
+        padding: .25em 1em;
+        font-weight: bold;
+        background-color: orange;
+
+        &.open {
+            background-color: lighten(orange, 5%);
+        }
+    }
+    .nav {
+        padding-left:2px;
+        padding-right:2px;
+    }
+    .nav li {
+        display:block !important;
+        width:100%;
+        margin:0px;
+    }
+    .nav li.active {
+        border-bottom:1px solid #ddd!important;
+        margin: 0px;
+    }
+}
+
+
+#pswd_info {
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #ccc;
+  border: 1px solid #ddd;
+  display: none;
+  z-index: 10; 
+  }
+#pswd_info li, ul {
+  list-style-type: none; }
+.invalid {
+  color: #ec3f41; }
+.valid {
+  color: #3a7d34; }
+
+
+//Validation
+.field-validation-error {
+    color: #b94a48;
+    display: inline-block;
+    //*display: inline;
+    padding-left: 5px;
+    vertical-align: middle;
+  //  *zoom: 1;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    /*
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+    */
+    color: #b94a48;
+    border-color: #b94a48 !important;
+}
+
+.input-validation-error:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: 0 0 6px #d59392;
+  -moz-box-shadow: 0 0 6px #d59392;
+  box-shadow: 0 0 6px #d59392;
+}
+
+.validation-summary-errors {
+    /*font-weight: bold;*/
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.progress-none{
+    background-color: gray !important;
+}
+
+.panel-gradient {
+ 
+  background-color: #4f714f;
+
+}
+
+
+
+#behavioral_health_forms {
+    padding: 0; 
+    margin: 2rem 0 0 0;
+
+    li {
+
+        &:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            padding: 1em;
+            display: block;
+
+            &:link, &:visited {
+                background-color: transparent;
+            }
+
+            &:hover, &:active {
+                background-color: lighten(#69BE28, 40%);
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#copaymentHelp {
+    
+    input#memberID {
+        max-width: 7em;
+        margin-right: .5em;
+    }
+
+    input#memberIDSuffix {
+        max-width: 3em;
+    }
+
+    input.phone {
+        display: block;
+        float: left;
+
+        &.phone-1, &.phone-2 {
+            max-width: 4em;
+            margin-right: .5em;
+        }
+
+        &.phone-3 {
+            max-width: 5em;
+        }
+    }
+
+    p {
+        margin-bottom: 2em;
+    }
+
+    #submitRequest {
+        margin-top: 2em;
+        background-color: #69BE28;
+        color: #FFF;
+        font-weight: bold;
+    }
+}
+
+#copaymentHelpSuccess {
+    .jumbotron {
+        background-color: lighten(#69BE28, 50%);
+        text-align: center;
+        border: #69BE28 solid 1px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+#ProviderReferral {
+    padding-bottom: 2em;
+
+   
+
+    
+
+    fieldset {
+        margin-top: 2em;
+    }
+
+    .memberInfo {
+        margin-bottom: 1.5em;
+    }
+
+    span.not_available {
+        background-color: #d00;
+        color: #FFF;
+    }
+
+    #tabSections {
+        padding-top: 2em;
+    }
+
+    .tab-content {
+        .tab-pane {
+            padding: 1em;
+        }
+
+        #Diagnosis, #Procedure {
+            table {
+                font-size: .9em;
+                th {
+                    background-color: #000;
+                    color: #FFF;
+                    padding: .5em .5em;
+                }
+
+                tr {
+                    &:nth-child(odd) {
+                        background-color: #f1f1f1;
+                    }
+                }
+
+                td {
+                    padding: .75em .5em;
+
+                    span.delete-row {
+                        cursor: pointer;
+                        font-size: .9em;
+                        font-weight: bold;
+                        transition: color 200ms ease;
+
+                        i.fa.fa-close.red {
+                            color: #F00;
+                        }
+
+                        &:hover, &:active {
+                            color: #F00;
+                            border-color: #D00 !important;
+                        }
+                    }
+                }
+            }
+
+            #clearAllCodes {
+
+                &:link, &:visited {
+                    background-color: #F00;
+                    border-color: #a00;
+                }
+
+                &:hover, &:active {
+                    background-color: #a00;
+                    border-color: #f00;
+                }
+            }
+        }
+
+        #Diary {
+            textarea {
+                height: 10em;
+            }
+        }
+
+        #ServiceExtensions {
+            textarea { 
+                margin-bottom: 2em;
+            }
+        }
+    }
+}
+
+
+
+
+
+#broker {
+
+    table {
+        tr {
+
+            td {
+
+                input[type='text'], select {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    
+     
+    a.delete_row {
+        color: #d00;
+    }
+
+    #zipcode { display: none;
+
+               &.active {
+                   display: block;
+               }
+
+    }
+}
+ 
+#hiddenForm, #providerInfoHidden {
+    display: none;
+
+    &.ready {
+        display: block !important;
+    }
+
+    &.visible-true {
+        display: block !important;
+    }
+}
+
+#COBSurvey {
+    padding-bottom: 2em;
+
+    .hidden-section {
+        display: none;
+    }
+
+    label {
+        font-weight: normal;
+    }
+
+    input[type='radio'] {
+        margin-left: 2rem;
+    }
+
+    input[type='text'] {
+        margin-bottom: 2rem;
+
+        &.phone {
+            display: inline-block;
+
+            &.phone-1, &.phone-2 {
+                max-width: 4em;
+            }
+
+            &.phone-3 {
+                max-width: 4.5em;
+            }
+        }
+
+        &.ssn {
+            display: inline-block;
+
+            &.ssn-1 {
+                max-width: 4em;
+            }
+
+            &.ssn-2 {
+                max-width: 3em;
+            }
+
+            &.ssn-3 {
+                max-width: 4.5em;
+            }
+        }
+    }
+
+
+    .input-group {
+        margin-bottom: 2rem;
+
+        input[type='text'] {
+            margin-bottom: 0;
+        }
+    }
+
+    ol {
+        list-style-type: none;
+        padding-left: 1em;
+        padding-right: 0;
+
+        li {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-bottom: #f1f1f1 solid 2px;
+            margin-bottom: 3rem;
+            color: green;
+            font-weight: bold;
+
+            div {
+                color: #000;
+                font-weight: normal
+            }
+
+            .question-title {
+                font-weight: bold;
+                //color: orange;
+            }
+
+            div.question-checks {
+                text-align: right;
+            }
+
+            ol.sub-questions {
+                list-style-type: none;
+                border-left: #f1f1f1 solid 5px;
+                padding: 2rem 2rem 0 2rem;
+
+                .question-title {
+                    color: #000;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    span.add_another_member {
+        cursor: pointer;
+        display: block;
+        margin-top: 2em;
+        font-size: 1em;
+
+        .fa.fa-plus-square {
+            font-size: 1.5em;
+            color: #69BE28;
+            line-height: normal;
+        }
+    }
+
+    &.CB240L2 {
+        #OtherInsuranceSection,
+        #WorkersCompensationSection,
+        #CountyStateFundedSection,
+        #VeteransAdministrationSection,
+        #MedicareEligibilitySection,
+        #DivorceSeparationSection,
+        #BlackLungSection {
+            display: none;
+        }
+
+        #SubscriberIfNotEmployed, #SpouseIfNotEmployed, #DependentIfNotEmployed, #FormSubmit {
+            display: none;
+        }
+    }
+
+    #MemberInfo {
+
+        strong {
+            background-color: #e1e1e1;
+            height: 34px;
+            width: 34px;
+            border: #d1d1d1 solid 1px;
+            line-height: 36px;
+            text-align: center;
+            float: left;
+            border-right: 0;
+        }
+
+        #MemberHID {
+            width: 150px;
+            float: left;
+            margin-right: .25em;
+            border-left: 0;
+        }
+
+        #MemberHIDSuffix {
+            width: 50px;
+            float: left;
+        }
+
+        button {
+            margin-right: 1em;
+        }
+    }
+}
+#quoteHistory.jumbotron {
+    background-color: #FFF;
+
+    table {
+        width: 100%;
+
+        tr > th {
+            background-color: #69BE28;
+            color: #FFF;
+            font-size: 1.2em;
+            padding: .5em;
+        }
+
+        tr:nth-child(even) {
+            td {
+                background-color: #f1f1f1;
+            }
+        }
+
+        tr {
+            td {
+                padding: .5em;
+
+                a.btn.btn-primary {
+                    font-size: .9em;
+                } 
+            }
+        }
+    }
+}
+
+#CommissionReport {
+    table {
+        caption {
+            font-size: 1.5em;
+        }
+
+        tr {
+            font-size: .8em;
+
+            td, th {
+                padding: .5em .25em;
+            }
+
+            th {
+                background-color: #000;
+                color: #FFF;
+            }
+
+            &:nth-child(even) {
+                background-color: #f1f1f1;
+            }
+
+            &.totals {
+                font-weight: bold;
+                border-top: #d1d1d1 solid 1px;
+                color: green;
+            }
+        }
+    }
+}
+#COBSurvey.CB240L2 {
+    fieldset {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+#ViewChangePCP {
+    .panel {
+        background-color: #f1f1f1;
+        padding: 1em;
+
+        h4 {
+            border-bottom: #d1d1d1 solid 1px;
+        }
+
+        button.change-provider {
+            margin-top: 2em;
+        }
+    }
+
+    .provider-info, #providerSearchForm, #providerSearchResults {
+        display: none;
+    }
+
+    #providerSearchResults {
+        tr > th {
+            background-color: #333;
+            color: #FFF;
+            font-size: 1.2em;
+            padding: .5em 0;
+            
+        }
+
+        .result-row {
+
+            &:nth-child(even) {
+                background-color: #F1f1f1;
+            }
+
+            td {
+                padding: .5em .25em;
+            }
+        }
+    }
+}
+
+#CaseTracker {
+
+    .row {
+        margin-bottom: 1.5em;
+    }
+
+    table {
+        tbody {
+            td {
+                padding-top: .5em;
+                padding-bottom: .5em;
+            }
+        }
+    }
+
+
+    #CaseTrackerMemberMenu {
+
+        .container-fluid {
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+
+            ul {
+                padding: 0;
+                margin: 0;
+
+                li {
+                    display: inline-block;
+                    width: 100px; 
+                    height: 100px;
+                    margin: .5em;
+
+                    .icon-image, .icon-text {
+                        text-align: center;
+                    }
+
+                    .icon-image {
+                        i.fa {
+                            font-size: 2em !important;
+                        }
+                    }
+
+                    .icon-text {
+                        font-size: .75em !important; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+#HealthRiskAssessment {
+    .questionSection {
+
+        
+        .SectionErrorMessage {
+             display: none;
+
+             &.active {
+                 display: block; 
+             }
+        }
+
+        .sectionHeading {
+            h2 {
+                background-color: #69BE28;
+                color: #FFF !important;
+                padding: .5em 1em;
+                margin: 1em 0 0 0;
+                text-align: right;
+                background-image: url(../img/HRA/hra-section-bookend.png);
+                background-repeat: no-repeat;
+                background-position:bottom left;
+            }
+
+            p.page-title {
+                padding-right: 1em;
+                background-color: transparent;
+            }
+        }
+
+        ol.questionList {
+            li.question {
+                margin-bottom: 4em;
+                margin-top: 4em;
+
+                .description {
+                    font-style: italic;
+                }
+
+                .healthTip {
+                    color: green;
+                    font-weight: bold;
+                }
+
+                ul.answerList {
+                    padding: 0;
+
+                    li.answer {
+                        border-left: $gray-lighter solid 10px;
+                        margin-bottom: .5em;
+                        padding-left: 1em;
+                        padding-top: .25em;
+
+                        label.answerLabel {
+                            font-weight: normal;
+                        }
+
+                        span.value {
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#EditHealthRiskAssessment {
+    ul#SectionList {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            border-bottom: lighten(#f8f8f8, 15%) solid 1px;
+            border-top: darken(#f8f8f8, 15%) solid 1px;
+            background-color: #f8f8f8;
+            padding: .5em;
+
+            a {
+                display: block;
+            }
+
+            .order-button {
+                display: inline;
+                float: right;
+                background-color: transparent;
+                border: 0;
+                padding: .15em;
+            }
+        }
+    }
+
+    #QuestionList {
+        li {
+            background-color: #fdfdfd;
+            padding: 1em;
+            margin-bottom: 2em;
+            border-bottom: #dfdfdf solid 2px;
+
+            .questionText {
+                font-weight: bold;
+            }
+
+            .healthTip {
+                font-weight: bold;
+                color: green;
+            }
+
+            ul {
+                li {
+                    border-bottom: none;
+                    padding: 1em;
+                    margin-bottom: 0em;
+                }
+            }
+
+            .order-button {
+                color: #00759A;
+            }
+
+            button, a {
+                float: right;
+                background-color: transparent;
+                border: 0;
+            }
+
+            a {
+                float: right;
+                padding-left: .25em;
+
+                &:link, &:visited {
+                    color: #00759A;
+                }
+
+                &:hover, &:active {
+                    color: #00759A;
+                }
+            }
+        }
+    }
+
+    #resultCont {
+        .fa.fa-check {
+            color: green;
+        }
+
+        .fa.fa-close {
+            color: red;
+        }
+
+        .fa.fa-spinner {
+            color: dodgerblue;
+        }
+    }
+
+    
+}
+#HRAEditQuestion {
+    #resultCont {
+        .fa.fa-check {
+            color: green;
+        }
+
+        .fa.fa-close {
+            color: red;
+        }
+
+        .fa.fa-spinner {
+            color: dodgerblue;
+        }
+    }
+
+    #questionPreview {
+        .QuestionText {
+            font-weight: bold;
+        }
+
+        ul.answerList { 
+        }
+
+        .HealthTip {
+            font-weight: bold;
+            color: green;
+        }
+    }
+
+    .tab-pane {
+        padding-top: 1em;
+    }
+
+    .range, .answer {
+        position: relative;
+
+        .rangeControls, .answerControls { 
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            button {
+                background: none;
+                border: 0;
+            }
+        }
+    }
+
+
+}
+
+
+#HRAEditSection {
+    #resultCont {
+        .fa.fa-check {
+            color: green;
+        }
+
+        .fa.fa-close {
+            color: red;
+        }
+
+        .fa.fa-spinner {
+            color: dodgerblue;
+        }
+    }
+
+    #ImagePreview {
+        width: 100px;
+        height: 100px;
+        border: #f1f1f1 solid 2px;
+    }
+
+    #AnswerKeys {
+        .answerKey {
+            background-color: #f1f1f1;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+#MyHealthRisks {
+    ul.navTabs {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            background-color: #dfdfdf;
+            padding: 1em;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            &.active {
+                background-color: #f1f1f1;
+                color: #FFF;
+            }
+        }
+    }
+
+    .assessmentTab {
+        border: #f1f1f1 solid 2px;
+        padding: 1em;
+    }
+
+    ul.resource-links {
+        li {
+            margin-bottom: .75em; 
+        }
+    }
+
+    .HRASummaryChart {
+        .HRASummaryChartHeader {
+            background-color: #69BE28;
+            font-size: 1.2em;
+            color: #FFF;
+        }
+
+        .HRASummaryChartRow, .HRASummaryChartHeader {
+            padding: .5em;
+        }
+
+        .HRASummaryChartRow:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+    }
+
+    .userSection {
+        margin-bottom: 2em;
+
+        ol.userSectionAnswers {
+            li > ul {
+                margin-bottom: 2em;
+            }
+        }
+
+        .sectionHeading {
+            h2 {
+                background-color: #69BE28;
+                color: #FFF !important;
+                padding: .5em 1em;
+                margin: 1em 0 0 0;
+                text-align: right;
+                background-image: url(../img/HRA/hra-section-bookend.png);
+                background-repeat: no-repeat;
+                background-position: bottom left;
+            }
+
+            p.page-title {
+                padding-right: 1em;
+                background-color: transparent;
+            }
+        }
+
+        @media screen and (max-width: 1023) {
+            .sectionHeading {
+                h2 {
+                    background-color: transparent;
+                    color: #333 !important;
+                    padding: .5em 1em;
+                    margin: 1em 0 0 0;
+                    text-align: left;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: bottom left;
+                }
+
+                p.page-title {
+                    padding-right: 1em;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+#MedicareEnrollmentForm {
+    label.inline {
+        margin-right: 1em;
+    }
+
+    div.form-group {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    fieldset {
+        margin-top: 2em;
+    }
+
+    fieldset legend {
+        font-size: 19px;
+    }
+
+    .input-validation-error-radio {
+        color: red !important;
+    }
+
+    .checkbox-cont {
+        float: left;
+        width: 100%;
+
+        @media(max-width:992px) {
+            max-width: 6%;
+        }
+
+        max-width: 3%;
+    }
+
+    .checkbox-label-cont {
+        float: left;
+        width: 100%;
+
+        @media(max-width:992px) {
+            max-width: 94%;
+        }
+
+        max-width: 97%;
+    }
+
+    ul#HealthConditions {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        li {
+            margin-bottom: 2em;
+
+            label.inline {
+                display: inline;
+            }
+        } 
+    } 
+
+    ol {
+        li {
+            margin-bottom: 2em;
+        }
+    }
+}
+
+div.panel.announcements {
+    .panel-heading {
+        background-color: $dark-green;
+        color: $white;
+    }
+
+    .panel-body {
+        background-color: #dff0d8;
+
+        ul {
+            list-style-type: disc;
+        }
+
+        ul.newsflash-attachments {
+            list-style-type: none;
+        }
+    }
+
+    h5.list-group-item-heading {
+        color: $util-orange !important;
+        font-size: 17.5px !important;
+    }
+}
+
+.fileUploader {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 14px !important;
+    border-radius: 10px;
+    border: $dark-green dashed 2px;
+    text-align: center;
+    font-weight: bold;
+
+    form.dropzone {
+        border: none;
+        min-height: unset;
+
+
+        input[type='file'] {
+            display: none;
+        }
+
+        div.dz-default.dz-message {
+
+            span {
+                color: $dark-green;
+                font-size: 1.15em !important;
+                padding: 2rem 1rem;
+                display: block;
+                cursor: pointer;
+                background-color: #f1f1f1;
+
+                small {
+                    font-size: .75em !important;
+                    color: #888;
+                    font-weight: normal;
+                    font-style: italic;
+
+                    label {
+                        font-weight: bold;
+                        font-size: 1em !important;
+                    }
+                }
+            }
+        }
+    }
+
+    ul.dropzone-previews {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        .dz-error-message {
+            color: #a00;
+        }
+
+        li.dz-preview {
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border-bottom: darken(#fff, 15%) solid 1px;
+
+            span.dz-upload {
+                height: 1em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                background-color: $exec-card-bright-orange;
+            }
+
+            .dz-error-mark, .dz-success-mark, .dz-spinner {
+                display: none;
+                text-align: center;
+
+                i.fa {
+                    font-size: 2rem !important;
+                }
+            }
+
+            .dz-error-mark, dz-error-message {
+                color: #a00;
+            }
+
+            .dz-success-mark {
+                color: $dark-green;
+            }
+
+            .dz-spinner {
+                color: $exec-card-bright-orange;
+            }
+
+            &.dz-processing {
+                .dz-error-mark, .dz-success-mark {
+                    display: none;
+                }
+
+                .dz-spinner {
+                    display: block;
+                }
+            }
+
+            &.dz-processing.dz-complete.dz-success {
+                .dz-error-mark, .dz-spinner {
+                    display: none;
+                }
+
+                .dz-success-mark {
+                    display: block;
+                }
+            }
+
+            &.dz-complete.dz-error {
+                .dz-success-mark, .dz-spinner {
+                    display: none;
+                }
+
+                .dz-error-mark {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+#DocumentManager {
+    .entity-name {
+        padding: .25em;
+    }
+
+    .file-entity {
+
+        a:link, a:visited {
+            color: $black;
+        }
+    }
+
+    .entity-selected {
+        & > .parent-directory > .entity-name, &.file-entity > .entity-name {
+            background-color: lighten($util-orange, 40%);
+        }
+    }
+}
+
+#DocumentManagerContextMenu {
+    padding: 0;
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: $util-light-grey;
+    color: #FFF;
+    margin: 0;
+    border: solid $util-dark-grey 1px; 
+    box-shadow: $util-dark-grey 0 0 5px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            border-bottom: solid 1px;
+
+            button {
+                text-align: left !important;
+            }
+        }
+    }
+}
+
+ul.newsflash-attachments {
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+
+div.contact-card {
+    padding-bottom: .5em;
+    /*border-bottom: dotted 1px $util-medium-grey;*/
+    margin-bottom: 1em;
+
+    &:last-child {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    &.compact-card {
+    }
+
+    label.name {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    div.title {
+        margin-bottom: 0;
+        display: block;
+    }
+
+    span.phone {
+        font-weight: bold;
+        color: $dark-green;
+
+        &:after {
+            content: "\2022";
+            padding-left: 1em; 
+            padding-right: .75em;
+            color: #000;
+        }
+
+        &:last-child {
+            &:after {
+                content: "";
+            }
+        }
+    }
+
+    a.email {
+        //email
+        color: $dark-green;
+        font-weight: bold;
+    }
+}
+
+.panel.thp-contacts h5 {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #888 !important;
+    margin: 2em 0 1em 0;
+    border-bottom: #888 dotted 1px;
+}

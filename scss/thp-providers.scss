@@ -1,0 +1,343 @@
+﻿#MemberInfo {
+
+    strong {
+        background-color: #e1e1e1;
+        height: 34px;
+        width: 34px;
+        border: #d1d1d1 solid 1px;
+        line-height: 36px;
+        text-align: center;
+        float: left;
+        border-right: 0;
+    }
+
+    #MemberHID {
+        width: 150px;
+        float: left;
+        margin-right: .25em;
+        border-left: 0;
+    }
+
+    #MemberHIDSuffix {
+        width: 50px;
+        float: left; 
+    }
+
+    
+
+}
+
+input.phone {
+    display: inline-block;
+
+    &.phone-1, &.phone-2 {
+        max-width: 3.75em;
+        margin-right: .5em; 
+    }
+
+    &.phone-3 {
+        max-width: 4.35em;
+    }
+
+    &.phone-extension {
+        max-width: 5.15em; 
+    }
+}
+
+#ProviderForm {
+    padding-bottom: 2rem;
+    font-size: 14px;
+
+    .well.referringPhysician, .well.admittingPhysician {
+        display: none;
+        margin-top: 1em;
+    }
+
+
+    fieldset {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 2rem;
+
+        & > legend {
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #333;
+            padding: 0 1rem;
+            color: #FFF;
+        }
+
+        fieldset {
+            background-color: #f8f8f8;
+            padding: 1rem;
+            margin-top: -3rem;
+            padding-bottom: 3rem;
+            border-bottom: 0;
+
+            & > legend {
+                border-bottom: 0;
+                font-size: 16px;
+                font-weight: bold;
+                background-color: transparent;
+                padding-top: 3rem;
+                padding-left: 0;
+                padding-right: 0;
+                color: #000;
+            }
+        }
+    }
+
+    label {
+        display: block;
+        text-align: left;
+        padding: .5em 0 0 0;
+        width: 100%;
+
+        &.inline {
+            display: inline;
+            margin-right: 1.5em;
+        }
+    }
+
+    input {
+        //margin-bottom: 2rem;
+        &[required] {
+            background-color: lighten(#69BE28, 45%);
+        }
+
+        &[type='radio'] {
+            width: auto;
+            margin: 0;
+            height: inherit;
+            display: inline-block;
+        }
+    }
+
+    select {
+        &[required] {
+            background-color: lighten(#69BE28, 45%);
+        }
+    }
+
+    span.accident-option {
+        padding-right: 3rem;
+    }
+
+
+
+
+    #selectedDiagnosisCodeContainer {
+        div.diagCode {
+            padding: .5em 0;
+            border-bottom: #d1d1d1 solid 1px;
+
+            i.fa {
+                color: red;
+                margin-right: 1em;
+            }
+        }
+    }
+
+    #ReferringProviderAjaxMenuContainer, #ReferringProviderAjaxMenuSelect, #ReferringProviderAjaxButton {
+        margin-top: 2em;
+    }
+
+    #CPT_Search_Button {
+        display: block;
+        max-width: 100px;
+    }
+
+    #ProcedureCodeContainer {
+        margin-top: 1em;
+    }
+
+    #CPTDiagnosisChoices, #selectedProcedureCodeContainer {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        sup > em {
+            color: #204d74;
+        }
+
+        li {
+            border-bottom: #777 solid 1px;
+            padding: 1em;
+            font-size: .85em;
+
+            input[type='radio'], input[type='checkbox'] {
+                margin-right: 1em !important;
+            }
+        }
+    }
+
+    #formDiagnosisAndCPT {
+        table {
+            margin-bottom: 2em;
+            margin-top: 2em;
+
+            caption {
+                padding: 1rem;
+                border-bottom: #777 solid 1px;
+
+                strong {
+                    font-size: 1.25em;
+                    font-weight: bold;
+                    color: #000;
+                }
+            }
+
+            tr > th {
+                padding: .5em;
+                border-bottom: #777 solid 1px;
+            }
+
+            tr > td input {
+                border: 0;
+                background-color: transparent;
+
+                &[name='Mod1'], &[name='Mod2'], &[name='Mod3'], &[name='Mod4'], &[name='Units'] {
+                    width: 3em;
+                    background-color: inherit;
+                }
+            }
+
+            tr:nth-child(odd) > td {
+                background-color: #f1f1f1;
+            }
+        }
+    }
+}
+
+#SearchMembers {
+
+    input[type='submit'] {
+        margin-top: 2.5rem;
+    }
+}
+
+#memberData {
+    font-size: .8em;
+    width: 100%;
+    
+    tr > th {  
+        background-color: #f1f1f1;
+    }
+
+    tr > td {
+        padding-top: 1rem;
+    }
+
+    .new-claim {
+        padding: .5rem;
+    }
+}
+
+.wickedpicker {
+    ul.wickedpicker__controls { 
+
+        li.wickedpicker__controls__control {
+            span.fa.fa-chevron-up, span.fa.fa-chevron-down {
+                display: block;
+                font-size: 2rem;
+            }
+
+            span.wickedpicker__controls__control--hours, span.wickedpicker__controls__control--minutes, span.wickedpicker__controls__control--meridiem {
+                display: block;
+                padding: .5rem 0;
+            }
+        }
+    }
+}
+
+#CignaModal {
+    .modal-content > h4 {
+        padding: 3em 1em !important;
+        text-align: center; 
+        color: #F00 !important;
+    }
+    
+}
+
+#permission tr.for-deletion {
+    td {
+        text-decoration:line-through;
+        color: #F00;
+
+        a.delete-access:link, a.delete-access:visited {
+            color: #F00;
+        }
+        a.delete-access:hover, a.delete-access:active {
+            color: #600;
+        }
+
+        a.undo-delete {
+            color: #666;
+        }
+    }
+
+    td:last-child {
+        text-decoration: none;
+    }
+    
+}
+
+
+
+#providerRegistration {
+    #enteredTaxIDMenu.input-validation-error {
+        background-color: #Fcc;
+    }
+
+   #SaveTaxID, #DeleteTaxID {
+       margin-top: 1em;
+   }
+}
+
+#registrationPortal {
+    padding-top: 2em;
+
+    .registration-bucket {
+        background-color: #f1f1f1;
+        padding: 1em;
+        border: #d1d1d1 solid 2px;
+        text-align: center;
+        height: 280px;
+
+        @media(max-width:767px) {
+            margin-top: 3em;
+        }
+
+
+        .myplan-icon {
+            background-color: #Fdfdfd;
+            width: 75px;
+            height: 75px;
+            border-radius: 50px;
+            border: #d1d1d1 solid 3px;
+            overflow: hidden;
+            text-align: center;
+            margin: -45px auto 0 auto;
+            padding-top: .75em;
+
+            i.fa {
+                font-size: 3.75em;
+                color: #69BE28;
+                text-align: center;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            border-bottom: #d1d1d1 solid 1px;
+            margin-bottom: 0;
+        }
+
+        p {
+            text-align: left;
+            border-bottom: #d1d1d1 solid 1px;
+            margin-bottom: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+}
