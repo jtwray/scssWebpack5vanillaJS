@@ -8,7 +8,7 @@
                     clean: true
                 },
                 bootstrap: {
-                    
+
                     files: {
                         'scss': '/bootstrap-sass/assets/stylesheets',
                         'Content/js/bootstrap.js': 'bootstrap-sass/assets/javascripts/bootstrap.js',
@@ -26,7 +26,7 @@
                         'Content/js': '/jquery-legacy/dist',
                     }
                 }
-                
+
             },
         sass: {
             dist: {
@@ -61,7 +61,7 @@
                     ext: '.min.css'
                 }]
             }
-            
+
         },
         watch: {
             css: {
@@ -71,7 +71,7 @@
         }
     });
     grunt.loadNpmTasks('grunt-bowercopy');
-    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-postcss');
