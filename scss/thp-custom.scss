@@ -2,14 +2,14 @@
 
 html{
     height: 100%;
- 
+
 }
 body{
     height: 100%;
 }
 
 header{
-    background-color: $site-primary-color; 
+    background-color: $site-primary-color;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -18,7 +18,7 @@ header{
     }
 }
 .body-content{
-    background: url('/Content/img/diamonds.svg') no-repeat top 8em left; 
+    background: url('/Content/img/diamonds.svg') no-repeat top 8em left;
     min-height: 500px;
 }
 .sub-header {
@@ -27,17 +27,15 @@ header{
     margin-top: 10px;
     margin-bottom: 2px;
     line-height: 60px;
-
-    img {
-        max-width: 100%;
-        vertical-align: middle;
-        margin: 3rem 0;
+    img{
+        max-width: 150px;
+        vertical-align:middle;
     }
 }
 
 .page-title{
-    color: gray !important; 
-    font-size: 20px; 
+    color: gray !important;
+    font-size: 20px;
     font-weight: 200;
     margin-bottom: 20px;
     margin-top: 0px;
@@ -75,12 +73,12 @@ h4{
 }
 
 h5{
-    color: #1a1da5 !important;   
+    color: #1a1da5 !important;
 }
 
 h6{
     color: #F4952F !important;
-    
+
 }
 
 
@@ -90,14 +88,14 @@ footer {
     //position: absolute;
     //bottom: 0;
     height: $footer-height;
-    background-image: url("/Content/img/bg_contemporary-china_apple.gif"); 
+    background-image: url("/Content/img/bg_contemporary-china_apple.gif");
     margin: 0 auto 0 auto;
     width: 100%;
-  
+
 }
 
 footer .sub{
-    
+
     padding-left: 20px;
     padding-right: 20px;
     background-color: #6fa231;
@@ -107,7 +105,7 @@ footer .sub{
 }
 
 .main-section{
-    
+
     border-left: 1px solid #e3e3e3;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -148,7 +146,7 @@ footer .sub{
 }
 
 .package{
-   
+
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: $border-radius-base;
@@ -205,7 +203,7 @@ footer .sub{
     background-color: #f5f5f5;
 }
 .sidebar-body{
-    
+
 }
 
 .client-logo{
@@ -257,19 +255,19 @@ footer .sub{
     border-bottom-style: solid;
     border-bottom-color: #ddd;
     border-bottom-width: 1px;
-    
+
 }*/
 
 .mobile_menu_button {
-    display: none; 
+    display: none;
 }
 
 @media screen and (max-width: 480px) {
-    .sidebar-nav {   
+    .sidebar-nav {
         display: none;
 
-        &.expanded {  
-            display: block; 
+        &.expanded {
+            display: block;
         }
     }
     .mobile_menu_button {
@@ -305,7 +303,7 @@ footer .sub{
   box-shadow: 0 1px 3px #ccc;
   border: 1px solid #ddd;
   display: none;
-  z-index: 10; 
+  z-index: 10;
   }
 #pswd_info li, ul {
   list-style-type: none; }
@@ -359,7 +357,7 @@ footer .sub{
 }
 
 .panel-gradient {
- 
+
   background-color: #4f714f;
 
 }
@@ -367,7 +365,7 @@ footer .sub{
 
 
 #behavioral_health_forms {
-    padding: 0; 
+    padding: 0;
     margin: 2rem 0 0 0;
 
     li {
@@ -394,7 +392,7 @@ footer .sub{
 }
 
 #copaymentHelp {
-    
+
     input#memberID {
         max-width: 7em;
         margin-right: .5em;
@@ -443,9 +441,9 @@ footer .sub{
 #ProviderReferral {
     padding-bottom: 2em;
 
-   
 
-    
+
+
 
     fieldset {
         margin-top: 2em;
@@ -526,7 +524,7 @@ footer .sub{
         }
 
         #ServiceExtensions {
-            textarea { 
+            textarea {
                 margin-bottom: 2em;
             }
         }
@@ -551,8 +549,8 @@ footer .sub{
         }
     }
 
-    
-     
+
+
     a.delete_row {
         color: #d00;
     }
@@ -565,7 +563,7 @@ footer .sub{
 
     }
 }
- 
+
 #hiddenForm, #providerInfoHidden {
     display: none;
 
@@ -758,7 +756,7 @@ footer .sub{
 
                 a.btn.btn-primary {
                     font-size: .9em;
-                } 
+                }
             }
         }
     }
@@ -825,7 +823,7 @@ footer .sub{
             color: #FFF;
             font-size: 1.2em;
             padding: .5em 0;
-            
+
         }
 
         .result-row {
@@ -870,7 +868,7 @@ footer .sub{
 
                 li {
                     display: inline-block;
-                    width: 100px; 
+                    width: 100px;
                     height: 100px;
                     margin: .5em;
 
@@ -885,7 +883,7 @@ footer .sub{
                     }
 
                     .icon-text {
-                        font-size: .75em !important; 
+                        font-size: .75em !important;
                     }
                 }
             }
@@ -896,12 +894,12 @@ footer .sub{
 #HealthRiskAssessment {
     .questionSection {
 
-        
+
         .SectionErrorMessage {
              display: none;
 
              &.active {
-                 display: block; 
+                 display: block;
              }
         }
 
@@ -1050,7 +1048,7 @@ footer .sub{
         }
     }
 
-    
+
 }
 #HRAEditQuestion {
     #resultCont {
@@ -1072,7 +1070,7 @@ footer .sub{
             font-weight: bold;
         }
 
-        ul.answerList { 
+        ul.answerList {
         }
 
         .HealthTip {
@@ -1088,7 +1086,7 @@ footer .sub{
     .range, .answer {
         position: relative;
 
-        .rangeControls, .answerControls { 
+        .rangeControls, .answerControls {
             position: absolute;
             top: 0;
             right: 0;
@@ -1161,7 +1159,7 @@ footer .sub{
 
     ul.resource-links {
         li {
-            margin-bottom: .75em; 
+            margin-bottom: .75em;
         }
     }
 
@@ -1289,8 +1287,8 @@ footer .sub{
             label.inline {
                 display: inline;
             }
-        } 
-    } 
+        }
+    }
 
     ol {
         li {
@@ -1468,7 +1466,7 @@ div.panel.announcements {
     background-color: $util-light-grey;
     color: #FFF;
     margin: 0;
-    border: solid $util-dark-grey 1px; 
+    border: solid $util-dark-grey 1px;
     box-shadow: $util-dark-grey 0 0 5px;
 
     ul {
@@ -1519,7 +1517,7 @@ div.contact-card {
 
         &:after {
             content: "\2022";
-            padding-left: 1em; 
+            padding-left: 1em;
             padding-right: .75em;
             color: #000;
         }
@@ -1544,4 +1542,259 @@ div.contact-card {
     color: #888 !important;
     margin: 2em 0 1em 0;
     border-bottom: #888 dotted 1px;
+}
+
+@media only screen and (max-width: 420px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        padding: 15px;
+        flex-flow: wrap;
+        width: auto;
+        width: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        background: green;
+        width: 100%;
+        color: white;
+        padding: 15px 15px 5px 15px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .block-login--we_mobile__storelinks a {
+        width: 100%;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 557px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        padding: 15px;
+        flex-flow: wrap;
+        width: auto;
+        width: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        background: green;
+        width: 100%;
+        color: white;
+        padding: 15px 15px 5px 15px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .block-login--we_mobile__storelinks a {
+        width: 100%;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 558px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        padding: 15px;
+        flex-flow: wrap;
+        width: auto;
+        width: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        background: green;
+        width: 100%;
+        color: white;
+        padding: 15px 15px 5px 15px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .block-login--we_mobile__storelinks a {
+        width: 100%;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 558px) and (max-width:767px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        flex-flow: wrap;
+        margin: 0;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .block-login--we_mobile__cta {
+        background: green;
+        max-width: 65%;
+        color: white;
+        padding: 15px 15px 0px 15px;
+        height: 150px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 35%;
+        padding: 0;
+        margin: 1px auto;
+        width: 210px;
+        height: 150px;
+    }
+
+    .block-login--we_mobile__storelinks a {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
+        all: unset;
+    }
+
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: wrap;
+        width: 615px;
+        margin: 0 auto;
+        padding: 0px 0px 0px 15px;
+        height: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        all: unset;
+        background: green;
+        color: white;
+        padding: 15px 15px 5px 15px;
+        width: 58%;
+        height: 100%;
+        margin-right: 5px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 36%;
+        width: auto;
+        margin: 0;
+        height: auto;
+        padding: 0;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 210px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: wrap;
+        width: 620px;
+        margin: 0 auto;
+        padding: 0px 15px;
+        height: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        all: unset;
+        background: green;
+        color: white;
+        padding: 15px 15px 5px 15px;
+        width: 60%;
+        height: 100%;
+        margin-right: 5px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 210px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: wrap;
+        width: 670px;
+        margin: 0 auto;
+        padding: 0px 15px;
+        height: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        all: unset;
+        background: green;
+        color: white;
+        padding: 15px 15px 5px 15px;
+        width: 60%;
+        height: 100%;
+        margin-right: 5px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 210px;
+    }
 }
