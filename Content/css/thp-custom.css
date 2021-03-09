@@ -1016,34 +1016,6 @@ div.contact-card {
   .block-login--we_mobile__storelinks img {
     width: 100%; } }
 
-@media only screen and (max-width: 558px) {
-  .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
-    display: -ms-flexbox;
-    display: flex;
-    padding: 15px;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    width: auto;
-    width: 100%; }
-  .block-login--we_mobile__cta {
-    background: green;
-    width: 100%;
-    color: white;
-    padding: 15px 15px 5px 15px; }
-  .block-login--we_mobile__storelinks {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    -ms-flex-direction: row;
-        flex-direction: row;
-    width: 100%;
-    margin-top: 10px; }
-  .block-login--we_mobile__storelinks a {
-    width: 100%; }
-  .block-login--we_mobile__storelinks img {
-    width: 100%; } }
-
 @media only screen and (min-width: 558px) and (max-width: 767px) {
   .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
     display: -ms-flexbox;
