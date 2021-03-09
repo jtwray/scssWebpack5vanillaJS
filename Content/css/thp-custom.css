@@ -18,18 +18,18 @@ header {
 
 .sub-header {
   padding-bottom: 9px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 10px;
   margin-bottom: 2px;
-  line-height: 60px;
-  width: 100%;
-  margin-top: 1rem; }
+  line-height: 60px; }
   .sub-header img {
     height: auto;
     width: auto;
     max-height: 90%;
     max-width: 100%;
     vertical-align: middle;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    margin-left: 15px; }
 
 .page-title {
   color: gray !important;
@@ -237,7 +237,8 @@ footer .sub {
   display: none;
   z-index: 10; }
 
-#pswd_info li, ul {
+#pswd_info li,
+ul {
   list-style-type: none; }
 
 .invalid {
@@ -340,30 +341,42 @@ footer .sub {
     padding-top: 2em; }
   #ProviderReferral .tab-content .tab-pane {
     padding: 1em; }
-  #ProviderReferral .tab-content #Diagnosis table, #ProviderReferral .tab-content #Procedure table {
+  #ProviderReferral .tab-content #Diagnosis table,
+  #ProviderReferral .tab-content #Procedure table {
     font-size: .9em; }
-    #ProviderReferral .tab-content #Diagnosis table th, #ProviderReferral .tab-content #Procedure table th {
+    #ProviderReferral .tab-content #Diagnosis table th,
+    #ProviderReferral .tab-content #Procedure table th {
       background-color: #000;
       color: #FFF;
       padding: .5em .5em; }
-    #ProviderReferral .tab-content #Diagnosis table tr:nth-child(odd), #ProviderReferral .tab-content #Procedure table tr:nth-child(odd) {
+    #ProviderReferral .tab-content #Diagnosis table tr:nth-child(odd),
+    #ProviderReferral .tab-content #Procedure table tr:nth-child(odd) {
       background-color: #f1f1f1; }
-    #ProviderReferral .tab-content #Diagnosis table td, #ProviderReferral .tab-content #Procedure table td {
+    #ProviderReferral .tab-content #Diagnosis table td,
+    #ProviderReferral .tab-content #Procedure table td {
       padding: .75em .5em; }
-      #ProviderReferral .tab-content #Diagnosis table td span.delete-row, #ProviderReferral .tab-content #Procedure table td span.delete-row {
+      #ProviderReferral .tab-content #Diagnosis table td span.delete-row,
+      #ProviderReferral .tab-content #Procedure table td span.delete-row {
         cursor: pointer;
         font-size: .9em;
         font-weight: bold;
         transition: color 200ms ease; }
-        #ProviderReferral .tab-content #Diagnosis table td span.delete-row i.fa.fa-close.red, #ProviderReferral .tab-content #Procedure table td span.delete-row i.fa.fa-close.red {
+        #ProviderReferral .tab-content #Diagnosis table td span.delete-row i.fa.fa-close.red,
+        #ProviderReferral .tab-content #Procedure table td span.delete-row i.fa.fa-close.red {
           color: #F00; }
-        #ProviderReferral .tab-content #Diagnosis table td span.delete-row:hover, #ProviderReferral .tab-content #Diagnosis table td span.delete-row:active, #ProviderReferral .tab-content #Procedure table td span.delete-row:hover, #ProviderReferral .tab-content #Procedure table td span.delete-row:active {
+        #ProviderReferral .tab-content #Diagnosis table td span.delete-row:hover, #ProviderReferral .tab-content #Diagnosis table td span.delete-row:active,
+        #ProviderReferral .tab-content #Procedure table td span.delete-row:hover,
+        #ProviderReferral .tab-content #Procedure table td span.delete-row:active {
           color: #F00;
           border-color: #D00 !important; }
-  #ProviderReferral .tab-content #Diagnosis #clearAllCodes:link, #ProviderReferral .tab-content #Diagnosis #clearAllCodes:visited, #ProviderReferral .tab-content #Procedure #clearAllCodes:link, #ProviderReferral .tab-content #Procedure #clearAllCodes:visited {
+  #ProviderReferral .tab-content #Diagnosis #clearAllCodes:link, #ProviderReferral .tab-content #Diagnosis #clearAllCodes:visited,
+  #ProviderReferral .tab-content #Procedure #clearAllCodes:link,
+  #ProviderReferral .tab-content #Procedure #clearAllCodes:visited {
     background-color: #F00;
     border-color: #a00; }
-  #ProviderReferral .tab-content #Diagnosis #clearAllCodes:hover, #ProviderReferral .tab-content #Diagnosis #clearAllCodes:active, #ProviderReferral .tab-content #Procedure #clearAllCodes:hover, #ProviderReferral .tab-content #Procedure #clearAllCodes:active {
+  #ProviderReferral .tab-content #Diagnosis #clearAllCodes:hover, #ProviderReferral .tab-content #Diagnosis #clearAllCodes:active,
+  #ProviderReferral .tab-content #Procedure #clearAllCodes:hover,
+  #ProviderReferral .tab-content #Procedure #clearAllCodes:active {
     background-color: #a00;
     border-color: #f00; }
   #ProviderReferral .tab-content #Diary textarea {
@@ -371,7 +384,8 @@ footer .sub {
   #ProviderReferral .tab-content #ServiceExtensions textarea {
     margin-bottom: 2em; }
 
-#broker table tr td input[type='text'], #broker table tr td select {
+#broker table tr td input[type='text'],
+#broker table tr td select {
   margin: 0; }
 
 #broker a.delete_row {
@@ -382,11 +396,14 @@ footer .sub {
   #broker #zipcode.active {
     display: block; }
 
-#hiddenForm, #providerInfoHidden {
+#hiddenForm,
+#providerInfoHidden {
   display: none; }
-  #hiddenForm.ready, #providerInfoHidden.ready {
+  #hiddenForm.ready,
+  #providerInfoHidden.ready {
     display: block !important; }
-  #hiddenForm.visible-true, #providerInfoHidden.visible-true {
+  #hiddenForm.visible-true,
+  #providerInfoHidden.visible-true {
     display: block !important; }
 
 #COBSurvey {
@@ -459,7 +476,10 @@ footer .sub {
   #COBSurvey.CB240L2 #DivorceSeparationSection,
   #COBSurvey.CB240L2 #BlackLungSection {
     display: none; }
-  #COBSurvey.CB240L2 #SubscriberIfNotEmployed, #COBSurvey.CB240L2 #SpouseIfNotEmployed, #COBSurvey.CB240L2 #DependentIfNotEmployed, #COBSurvey.CB240L2 #FormSubmit {
+  #COBSurvey.CB240L2 #SubscriberIfNotEmployed,
+  #COBSurvey.CB240L2 #SpouseIfNotEmployed,
+  #COBSurvey.CB240L2 #DependentIfNotEmployed,
+  #COBSurvey.CB240L2 #FormSubmit {
     display: none; }
   #COBSurvey #MemberInfo strong {
     background-color: #e1e1e1;
@@ -502,7 +522,8 @@ footer .sub {
 
 #CommissionReport table tr {
   font-size: .8em; }
-  #CommissionReport table tr td, #CommissionReport table tr th {
+  #CommissionReport table tr td,
+  #CommissionReport table tr th {
     padding: .5em .25em; }
   #CommissionReport table tr th {
     background-color: #000;
@@ -526,7 +547,9 @@ footer .sub {
   #ViewChangePCP .panel button.change-provider {
     margin-top: 2em; }
 
-#ViewChangePCP .provider-info, #ViewChangePCP #providerSearchForm, #ViewChangePCP #providerSearchResults {
+#ViewChangePCP .provider-info,
+#ViewChangePCP #providerSearchForm,
+#ViewChangePCP #providerSearchResults {
   display: none; }
 
 #ViewChangePCP #providerSearchResults tr > th {
@@ -559,7 +582,8 @@ footer .sub {
       width: 100px;
       height: 100px;
       margin: .5em; }
-      #CaseTracker #CaseTrackerMemberMenu .container-fluid ul li .icon-image, #CaseTracker #CaseTrackerMemberMenu .container-fluid ul li .icon-text {
+      #CaseTracker #CaseTrackerMemberMenu .container-fluid ul li .icon-image,
+      #CaseTracker #CaseTrackerMemberMenu .container-fluid ul li .icon-text {
         text-align: center; }
       #CaseTracker #CaseTrackerMemberMenu .container-fluid ul li .icon-image i.fa {
         font-size: 2em !important; }
@@ -640,7 +664,8 @@ footer .sub {
     margin-bottom: 0em; }
   #EditHealthRiskAssessment #QuestionList li .order-button {
     color: #00759A; }
-  #EditHealthRiskAssessment #QuestionList li button, #EditHealthRiskAssessment #QuestionList li a {
+  #EditHealthRiskAssessment #QuestionList li button,
+  #EditHealthRiskAssessment #QuestionList li a {
     float: right;
     background-color: transparent;
     border: 0; }
@@ -680,13 +705,20 @@ footer .sub {
 #HRAEditQuestion .tab-pane {
   padding-top: 1em; }
 
-#HRAEditQuestion .range, #HRAEditQuestion .answer {
+#HRAEditQuestion .range,
+#HRAEditQuestion .answer {
   position: relative; }
-  #HRAEditQuestion .range .rangeControls, #HRAEditQuestion .range .answerControls, #HRAEditQuestion .answer .rangeControls, #HRAEditQuestion .answer .answerControls {
+  #HRAEditQuestion .range .rangeControls,
+  #HRAEditQuestion .range .answerControls,
+  #HRAEditQuestion .answer .rangeControls,
+  #HRAEditQuestion .answer .answerControls {
     position: absolute;
     top: 0;
     right: 0; }
-    #HRAEditQuestion .range .rangeControls button, #HRAEditQuestion .range .answerControls button, #HRAEditQuestion .answer .rangeControls button, #HRAEditQuestion .answer .answerControls button {
+    #HRAEditQuestion .range .rangeControls button,
+    #HRAEditQuestion .range .answerControls button,
+    #HRAEditQuestion .answer .rangeControls button,
+    #HRAEditQuestion .answer .answerControls button {
       background: none;
       border: 0; }
 
@@ -735,7 +767,8 @@ footer .sub {
   font-size: 1.2em;
   color: #FFF; }
 
-#MyHealthRisks .HRASummaryChart .HRASummaryChartRow, #MyHealthRisks .HRASummaryChart .HRASummaryChartHeader {
+#MyHealthRisks .HRASummaryChart .HRASummaryChartRow,
+#MyHealthRisks .HRASummaryChart .HRASummaryChartHeader {
   padding: .5em; }
 
 #MyHealthRisks .HRASummaryChart .HRASummaryChartRow:nth-child(odd) {
@@ -876,26 +909,34 @@ div.panel.announcements h5.list-group-item-heading {
         margin-top: 1em;
         margin-bottom: 1em;
         background-color: #dd5f13; }
-      .fileUploader ul.dropzone-previews li.dz-preview .dz-error-mark, .fileUploader ul.dropzone-previews li.dz-preview .dz-success-mark, .fileUploader ul.dropzone-previews li.dz-preview .dz-spinner {
+      .fileUploader ul.dropzone-previews li.dz-preview .dz-error-mark,
+      .fileUploader ul.dropzone-previews li.dz-preview .dz-success-mark,
+      .fileUploader ul.dropzone-previews li.dz-preview .dz-spinner {
         display: none;
         text-align: center; }
-        .fileUploader ul.dropzone-previews li.dz-preview .dz-error-mark i.fa, .fileUploader ul.dropzone-previews li.dz-preview .dz-success-mark i.fa, .fileUploader ul.dropzone-previews li.dz-preview .dz-spinner i.fa {
+        .fileUploader ul.dropzone-previews li.dz-preview .dz-error-mark i.fa,
+        .fileUploader ul.dropzone-previews li.dz-preview .dz-success-mark i.fa,
+        .fileUploader ul.dropzone-previews li.dz-preview .dz-spinner i.fa {
           font-size: 2rem !important; }
-      .fileUploader ul.dropzone-previews li.dz-preview .dz-error-mark, .fileUploader ul.dropzone-previews li.dz-preview dz-error-message {
+      .fileUploader ul.dropzone-previews li.dz-preview .dz-error-mark,
+      .fileUploader ul.dropzone-previews li.dz-preview dz-error-message {
         color: #a00; }
       .fileUploader ul.dropzone-previews li.dz-preview .dz-success-mark {
         color: #009944; }
       .fileUploader ul.dropzone-previews li.dz-preview .dz-spinner {
         color: #dd5f13; }
-      .fileUploader ul.dropzone-previews li.dz-preview.dz-processing .dz-error-mark, .fileUploader ul.dropzone-previews li.dz-preview.dz-processing .dz-success-mark {
+      .fileUploader ul.dropzone-previews li.dz-preview.dz-processing .dz-error-mark,
+      .fileUploader ul.dropzone-previews li.dz-preview.dz-processing .dz-success-mark {
         display: none; }
       .fileUploader ul.dropzone-previews li.dz-preview.dz-processing .dz-spinner {
         display: block; }
-      .fileUploader ul.dropzone-previews li.dz-preview.dz-processing.dz-complete.dz-success .dz-error-mark, .fileUploader ul.dropzone-previews li.dz-preview.dz-processing.dz-complete.dz-success .dz-spinner {
+      .fileUploader ul.dropzone-previews li.dz-preview.dz-processing.dz-complete.dz-success .dz-error-mark,
+      .fileUploader ul.dropzone-previews li.dz-preview.dz-processing.dz-complete.dz-success .dz-spinner {
         display: none; }
       .fileUploader ul.dropzone-previews li.dz-preview.dz-processing.dz-complete.dz-success .dz-success-mark {
         display: block; }
-      .fileUploader ul.dropzone-previews li.dz-preview.dz-complete.dz-error .dz-success-mark, .fileUploader ul.dropzone-previews li.dz-preview.dz-complete.dz-error .dz-spinner {
+      .fileUploader ul.dropzone-previews li.dz-preview.dz-complete.dz-error .dz-success-mark,
+      .fileUploader ul.dropzone-previews li.dz-preview.dz-complete.dz-error .dz-spinner {
         display: none; }
       .fileUploader ul.dropzone-previews li.dz-preview.dz-complete.dz-error .dz-error-mark {
         display: block; }
@@ -903,10 +944,12 @@ div.panel.announcements h5.list-group-item-heading {
 #DocumentManager .entity-name {
   padding: .25em; }
 
-#DocumentManager .file-entity a:link, #DocumentManager .file-entity a:visited {
+#DocumentManager .file-entity a:link,
+#DocumentManager .file-entity a:visited {
   color: #333; }
 
-#DocumentManager .entity-selected > .parent-directory > .entity-name, #DocumentManager .entity-selected.file-entity > .entity-name {
+#DocumentManager .entity-selected > .parent-directory > .entity-name,
+#DocumentManager .entity-selected.file-entity > .entity-name {
   background-color: #f5e7d0; }
 
 #DocumentManagerContextMenu {
@@ -958,12 +1001,18 @@ div.contact-card {
     color: #009944;
     font-weight: bold; }
 
+h1 {
+  margin-left: 15px; }
+
 .panel.thp-contacts h5 {
   font-size: 1.15em;
   font-weight: bold;
   color: #888 !important;
   margin: 2em 0 1em 0;
   border-bottom: #888 dotted 1px; }
+
+.block-login--first_time li {
+  padding: 5px 0; }
 
 @media only screen and (max-width: 420px) {
   .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
@@ -1021,6 +1070,40 @@ div.contact-card {
   .block-login--we_mobile__storelinks img {
     width: 100%; } }
 
+@media only screen and (max-width: 558px) {
+  .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    width: auto;
+    width: 100%; }
+  .block-login--we_mobile__cta {
+    background: green;
+    width: 100%;
+    color: white;
+    padding: 15px 15px 5px 15px; }
+  .block-login--we_mobile__storelinks {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    width: 100%;
+    margin-top: 10px; }
+  .block-login--we_mobile__storelinks a {
+    width: 100%; }
+  .block-login--we_mobile__storelinks img {
+    width: 100%; }
+  .form-group.block-login--Controls {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    gap: 15px; } }
+
 @media only screen and (min-width: 558px) and (max-width: 767px) {
   .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
     display: -ms-flexbox;
@@ -1057,34 +1140,61 @@ div.contact-card {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0; } }
+    padding: 0; }
+  .form-group.block-login--Controls {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    gap: 15px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .block-login--Main {
+    all: unset;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    gap: 15px; }
+  block-login--loginPanel {
+    all: unset;
+    width: 73.3333%; }
   .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
-    all: unset; }
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    width: 160px;
+    height: -webkit-fit-content;
+    height: fit-content;
+    padding: 0 0 0 1rem;
+    margin-left: 0.2rem; }
   .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     -ms-flex-align: center;
         align-items: center;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
-    width: 615px;
-    margin: 0 auto;
-    padding: 0px 0px 0px 15px;
-    height: 100%; }
+    width: auto;
+    height: 100%;
+    margin: 0;
+    gap: 0;
+    padding: 0 0 0 15px; }
   .block-login--we_mobile__cta {
     all: unset;
     background: green;
-    color: white;
-    padding: 15px 15px 5px 15px;
+    color: #fff;
     width: 58%;
     height: 100%;
-    margin-right: 5px; }
+    margin-right: 5px;
+    padding: 25px; }
   .block-login--we_mobile__storelinks {
     display: -ms-flexbox;
     display: flex;
@@ -1092,13 +1202,62 @@ div.contact-card {
         flex-direction: column;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    width: 36%;
     width: auto;
     margin: 0;
     height: auto;
     padding: 0; }
   .block-login--we_mobile__storelinks img {
-    width: 210px; } }
+    width: 210px; }
+  .form-group.block-login--Controls {
+    display: -ms-flexbox;
+    display: flex;
+    width: 64.7%;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 5rem; }
+  select#LoginRole {
+    height: 36px;
+    width: auto; }
+  div.block-login--Controls > div {
+    width: 50%;
+    padding: 0rem;
+    margin: 0; }
+  .block-login--Controls_container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+  .block-login--Controls .input-group {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    display: -ms-flexbox;
+    display: flex; }
+  .form-group.block-login--Controls {
+    display: -ms-flexbox;
+    display: flex;
+    width: 64.7%;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 5rem; }
+  select#LoginRole {
+    height: 36px;
+    width: auto; }
+  div.block-login--Controls > div {
+    width: 50%;
+    padding: 0rem;
+    margin: 0; }
+  .block-login--Controls_container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+  .block-login--Controls .input-group {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    display: -ms-flexbox;
+    display: flex; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
@@ -1133,7 +1292,32 @@ div.contact-card {
         justify-content: space-between;
     width: 30%; }
   .block-login--we_mobile__storelinks img {
-    width: 210px; } }
+    width: 210px; }
+  .form-group.block-login--Controls {
+    display: -ms-flexbox;
+    display: flex;
+    width: 64.7%;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 5rem; }
+  select#LoginRole {
+    height: 36px;
+    width: auto; }
+  div.block-login--Controls > div {
+    width: 50%;
+    padding: 0rem;
+    margin: 0; }
+  .block-login--Controls_container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+  .block-login--Controls .input-group {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    display: -ms-flexbox;
+    display: flex; } }
 
 @media only screen and (min-width: 1200px) {
   .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
@@ -1168,4 +1352,29 @@ div.contact-card {
         justify-content: space-between;
     width: 30%; }
   .block-login--we_mobile__storelinks img {
-    width: 210px; } }
+    width: 210px; }
+  .form-group.block-login--Controls {
+    display: -ms-flexbox;
+    display: flex;
+    width: 64.7%;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 5rem; }
+  select#LoginRole {
+    height: 36px;
+    width: auto; }
+  div.block-login--Controls > div {
+    width: 50%;
+    padding: 0rem;
+    margin: 0; }
+  .block-login--Controls_container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+  .block-login--Controls .input-group {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    display: -ms-flexbox;
+    display: flex; } }

@@ -2,6 +2,7 @@
 
 html {
     height: 100%;
+
 }
 
 body {
@@ -26,11 +27,10 @@ header {
 
 .sub-header {
     padding-bottom: 9px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 10px;
     margin-bottom: 2px;
     line-height: 60px;
-    width: 100%;
-    margin-top: 1rem;
 
     img {
         height: auto;
@@ -39,6 +39,7 @@ header {
         max-width: 100%;
         vertical-align: middle;
         padding-top: 2rem;
+        margin-left: 15px;
     }
 }
 
@@ -86,6 +87,7 @@ h5 {
 
 h6 {
     color: #F4952F !important;
+
 }
 
 
@@ -98,17 +100,21 @@ footer {
     background-image: url("/Content/img/bg_contemporary-china_apple.gif");
     margin: 0 auto 0 auto;
     width: 100%;
+
 }
 
 footer .sub {
+
     padding-left: 20px;
     padding-right: 20px;
     background-color: #6fa231;
     color: #e0e6d9;
     font-size: 14px;
+
 }
 
 .main-section {
+
     border-left: 1px solid #e3e3e3;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -153,6 +159,7 @@ footer .sub {
 }
 
 .package {
+
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: $border-radius-base;
@@ -179,6 +186,7 @@ footer .sub {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+
 }
 
 .logo {
@@ -208,8 +216,7 @@ footer .sub {
     background-color: #f5f5f5;
 }
 
-.sidebar-body {
-}
+.sidebar-body {}
 
 .client-logo {
     background-color: white;
@@ -316,7 +323,8 @@ footer .sub {
     z-index: 10;
 }
 
-#pswd_info li, ul {
+#pswd_info li,
+ul {
     list-style-type: none;
 }
 
@@ -373,7 +381,9 @@ footer .sub {
 }
 
 .panel-gradient {
+
     background-color: #4f714f;
+
 }
 
 
@@ -392,11 +402,13 @@ footer .sub {
             padding: 1em;
             display: block;
 
-            &:link, &:visited {
+            &:link,
+            &:visited {
                 background-color: transparent;
             }
 
-            &:hover, &:active {
+            &:hover,
+            &:active {
                 background-color: lighten(#69BE28, 40%);
                 color: #000;
                 text-decoration: none;
@@ -420,7 +432,8 @@ footer .sub {
         display: block;
         float: left;
 
-        &.phone-1, &.phone-2 {
+        &.phone-1,
+        &.phone-2 {
             max-width: 4em;
             margin-right: .5em;
         }
@@ -481,7 +494,8 @@ footer .sub {
             padding: 1em;
         }
 
-        #Diagnosis, #Procedure {
+        #Diagnosis,
+        #Procedure {
             table {
                 font-size: .9em;
 
@@ -510,7 +524,8 @@ footer .sub {
                             color: #F00;
                         }
 
-                        &:hover, &:active {
+                        &:hover,
+                        &:active {
                             color: #F00;
                             border-color: #D00 !important;
                         }
@@ -520,12 +535,14 @@ footer .sub {
 
             #clearAllCodes {
 
-                &:link, &:visited {
+                &:link,
+                &:visited {
                     background-color: #F00;
                     border-color: #a00;
                 }
 
-                &:hover, &:active {
+                &:hover,
+                &:active {
                     background-color: #a00;
                     border-color: #f00;
                 }
@@ -557,7 +574,8 @@ footer .sub {
 
             td {
 
-                input[type='text'], select {
+                input[type='text'],
+                select {
                     margin: 0;
                 }
             }
@@ -576,10 +594,12 @@ footer .sub {
         &.active {
             display: block;
         }
+
     }
 }
 
-#hiddenForm, #providerInfoHidden {
+#hiddenForm,
+#providerInfoHidden {
     display: none;
 
     &.ready {
@@ -612,7 +632,8 @@ footer .sub {
         &.phone {
             display: inline-block;
 
-            &.phone-1, &.phone-2 {
+            &.phone-1,
+            &.phone-2 {
                 max-width: 4em;
             }
 
@@ -701,6 +722,7 @@ footer .sub {
     }
 
     &.CB240L2 {
+
         #OtherInsuranceSection,
         #WorkersCompensationSection,
         #CountyStateFundedSection,
@@ -711,7 +733,10 @@ footer .sub {
             display: none;
         }
 
-        #SubscriberIfNotEmployed, #SpouseIfNotEmployed, #DependentIfNotEmployed, #FormSubmit {
+        #SubscriberIfNotEmployed,
+        #SpouseIfNotEmployed,
+        #DependentIfNotEmployed,
+        #FormSubmit {
             display: none;
         }
     }
@@ -753,7 +778,7 @@ footer .sub {
     table {
         width: 100%;
 
-        tr > th {
+        tr>th {
             background-color: #69BE28;
             color: #FFF;
             font-size: 1.2em;
@@ -787,7 +812,8 @@ footer .sub {
         tr {
             font-size: .8em;
 
-            td, th {
+            td,
+            th {
                 padding: .5em .25em;
             }
 
@@ -830,16 +856,19 @@ footer .sub {
         }
     }
 
-    .provider-info, #providerSearchForm, #providerSearchResults {
+    .provider-info,
+    #providerSearchForm,
+    #providerSearchResults {
         display: none;
     }
 
     #providerSearchResults {
-        tr > th {
+        tr>th {
             background-color: #333;
             color: #FFF;
             font-size: 1.2em;
             padding: .5em 0;
+
         }
 
         .result-row {
@@ -888,7 +917,8 @@ footer .sub {
                     height: 100px;
                     margin: .5em;
 
-                    .icon-image, .icon-text {
+                    .icon-image,
+                    .icon-text {
                         text-align: center;
                     }
 
@@ -1029,7 +1059,8 @@ footer .sub {
                 color: #00759A;
             }
 
-            button, a {
+            button,
+            a {
                 float: right;
                 background-color: transparent;
                 border: 0;
@@ -1039,11 +1070,13 @@ footer .sub {
                 float: right;
                 padding-left: .25em;
 
-                &:link, &:visited {
+                &:link,
+                &:visited {
                     color: #00759A;
                 }
 
-                &:hover, &:active {
+                &:hover,
+                &:active {
                     color: #00759A;
                 }
             }
@@ -1063,6 +1096,8 @@ footer .sub {
             color: dodgerblue;
         }
     }
+
+
 }
 
 #HRAEditQuestion {
@@ -1085,8 +1120,7 @@ footer .sub {
             font-weight: bold;
         }
 
-        ul.answerList {
-        }
+        ul.answerList {}
 
         .HealthTip {
             font-weight: bold;
@@ -1098,10 +1132,12 @@ footer .sub {
         padding-top: 1em;
     }
 
-    .range, .answer {
+    .range,
+    .answer {
         position: relative;
 
-        .rangeControls, .answerControls {
+        .rangeControls,
+        .answerControls {
             position: absolute;
             top: 0;
             right: 0;
@@ -1112,6 +1148,8 @@ footer .sub {
             }
         }
     }
+
+
 }
 
 
@@ -1183,7 +1221,8 @@ footer .sub {
             color: #FFF;
         }
 
-        .HRASummaryChartRow, .HRASummaryChartHeader {
+        .HRASummaryChartRow,
+        .HRASummaryChartHeader {
             padding: .5em;
         }
 
@@ -1196,7 +1235,7 @@ footer .sub {
         margin-bottom: 2em;
 
         ol.userSectionAnswers {
-            li > ul {
+            li>ul {
                 margin-bottom: 2em;
             }
         }
@@ -1398,7 +1437,9 @@ div.panel.announcements {
                 background-color: $exec-card-bright-orange;
             }
 
-            .dz-error-mark, .dz-success-mark, .dz-spinner {
+            .dz-error-mark,
+            .dz-success-mark,
+            .dz-spinner {
                 display: none;
                 text-align: center;
 
@@ -1407,7 +1448,8 @@ div.panel.announcements {
                 }
             }
 
-            .dz-error-mark, dz-error-message {
+            .dz-error-mark,
+            dz-error-message {
                 color: #a00;
             }
 
@@ -1420,7 +1462,9 @@ div.panel.announcements {
             }
 
             &.dz-processing {
-                .dz-error-mark, .dz-success-mark {
+
+                .dz-error-mark,
+                .dz-success-mark {
                     display: none;
                 }
 
@@ -1430,7 +1474,9 @@ div.panel.announcements {
             }
 
             &.dz-processing.dz-complete.dz-success {
-                .dz-error-mark, .dz-spinner {
+
+                .dz-error-mark,
+                .dz-spinner {
                     display: none;
                 }
 
@@ -1440,7 +1486,9 @@ div.panel.announcements {
             }
 
             &.dz-complete.dz-error {
-                .dz-success-mark, .dz-spinner {
+
+                .dz-success-mark,
+                .dz-spinner {
                     display: none;
                 }
 
@@ -1459,13 +1507,16 @@ div.panel.announcements {
 
     .file-entity {
 
-        a:link, a:visited {
+        a:link,
+        a:visited {
             color: $black;
         }
     }
 
     .entity-selected {
-        & > .parent-directory > .entity-name, &.file-entity > .entity-name {
+
+        &>.parent-directory>.entity-name,
+        &.file-entity>.entity-name {
             background-color: lighten($util-orange, 40%);
         }
     }
@@ -1511,8 +1562,7 @@ div.contact-card {
         margin-bottom: 0;
     }
 
-    &.compact-card {
-    }
+    &.compact-card {}
 
     label.name {
         display: block;
@@ -1549,12 +1599,21 @@ div.contact-card {
     }
 }
 
+h1 {
+    margin-left: 15px;
+}
+
 .panel.thp-contacts h5 {
     font-size: 1.15em;
     font-weight: bold;
     color: #888 !important;
     margin: 2em 0 1em 0;
     border-bottom: #888 dotted 1px;
+}
+
+
+.block-login--first_time li {
+    padding: 5px 0;
 }
 
 @media only screen and (max-width: 420px) {
@@ -1621,8 +1680,46 @@ div.contact-card {
     .block-login--we_mobile__storelinks img {
         width: 100%;
     }
+
 }
 
+@media only screen and (max-width: 558px) {
+    .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: flex;
+        padding: 15px;
+        flex-flow: wrap;
+        width: auto;
+        width: 100%;
+    }
+
+    .block-login--we_mobile__cta {
+        background: green;
+        width: 100%;
+        color: white;
+        padding: 15px 15px 5px 15px;
+    }
+
+    .block-login--we_mobile__storelinks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .block-login--we_mobile__storelinks a {
+        width: 100%;
+    }
+
+    .block-login--we_mobile__storelinks img {
+        width: 100%;
+    }
+    .form-group.block-login--Controls{
+        display:flex;
+        justify-content:flex-end;
+        gap:15px;
+    }
+}
 
 @media only screen and (min-width: 558px) and (max-width:767px) {
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
@@ -1664,40 +1761,65 @@ div.contact-card {
         margin: 0;
         padding: 0;
     }
+    .form-group.block-login--Controls{
+        display:flex;
+        justify-content:flex-end;
+        gap:15px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
-    .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
+    .block-login--Main {
         all: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 15px;
     }
+
+
+    block-login--loginPanel {
+        all: unset;
+        width: 73.3333%;
+    }
+
+    .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+        height: fit-content;
+        padding: 0 0 0 1rem;
+        margin-left: 0.2rem;
+    }
+
 
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         flex-flow: wrap;
-        width: 615px;
-        margin: 0 auto;
-        padding: 0px 0px 0px 15px;
+        width: auto;
         height: 100%;
+        margin: 0;
+        gap: 0;
+        padding: 0 0 0 15px;
     }
 
     .block-login--we_mobile__cta {
         all: unset;
         background: green;
-        color: white;
-        padding: 15px 15px 5px 15px;
+        color: #fff;
         width: 58%;
         height: 100%;
         margin-right: 5px;
+        padding: 25px;
     }
 
     .block-login--we_mobile__storelinks {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 36%;
         width: auto;
         margin: 0;
         height: auto;
@@ -1706,6 +1828,65 @@ div.contact-card {
 
     .block-login--we_mobile__storelinks img {
         width: 210px;
+    }
+
+    .form-group.block-login--Controls {
+        display: flex;
+        width: 64.7%;
+        justify-content: space-between;
+        margin: 0 5rem;
+    }
+
+    select#LoginRole {
+        height: 36px;
+        width: auto;
+    }
+
+    div.block-login--Controls > div {
+        width: 50%;
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .block-login--Controls_container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .block-login--Controls .input-group {
+        justify-content: flex-end;
+        display: flex;
+    }
+    .form-group.block-login--Controls {
+        display: flex;
+        width: 64.7%;
+        justify-content: space-between;
+        margin: 0 5rem;
+    }
+
+    select#LoginRole {
+        height: 36px;
+        width: auto;
+    }
+
+    div.block-login--Controls > div {
+        width: 50%;
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .col-sm-offset-3.col-sm-8 {}
+
+    .block-login--Controls_container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .block-login--Controls .input-group {
+        justify-content: flex-end;
+        display: flex;
     }
 }
 
@@ -1742,6 +1923,36 @@ div.contact-card {
     .block-login--we_mobile__storelinks img {
         width: 210px;
     }
+    .form-group.block-login--Controls {
+        display: flex;
+        width: 64.7%;
+        justify-content: space-between;
+        margin: 0 5rem;
+    }
+
+    select#LoginRole {
+        height: 36px;
+        width: auto;
+    }
+
+    div.block-login--Controls > div {
+        width: 50%;
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .col-sm-offset-3.col-sm-8 {}
+
+    .block-login--Controls_container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .block-login--Controls .input-group {
+        justify-content: flex-end;
+        display: flex;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1776,5 +1987,35 @@ div.contact-card {
 
     .block-login--we_mobile__storelinks img {
         width: 210px;
+    }
+    .form-group.block-login--Controls {
+        display: flex;
+        width: 64.7%;
+        justify-content: space-between;
+        margin: 0 5rem;
+    }
+
+    select#LoginRole {
+        height: 36px;
+        width: auto;
+    }
+
+    div.block-login--Controls > div {
+        width: 50%;
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .col-sm-offset-3.col-sm-8 {}
+
+    .block-login--Controls_container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .block-login--Controls .input-group {
+        justify-content: flex-end;
+        display: flex;
     }
 }
