@@ -1779,34 +1779,39 @@ h1 {
         gap: 15px;
     }
 
-
-    block-login--loginPanel {
-        all: unset;
-        width: 70.5%;
-    }
+        .col-sm-10.col-md-8.col-lg-7.block-login--loginPanel {
+            width: 70.5%;
+        }
 
     .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 160px;
+        height: -webkit-fit-content;
         height: fit-content;
-         margin-left: 0.2rem;
-        padding-left:20px;
+        padding: 0;
+        margin-left: 0;
     }
-
-
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-direction: row;
         flex-direction: row;
+        -ms-flex-pack: justify;
         justify-content: space-between;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-flow: wrap;
         flex-flow: wrap;
         width: auto;
         height: 100%;
         margin: 0;
         gap: 0;
-        padding: 0 0 0 15px;
+        /* padding: 0 0 0 15px; */
     }
+
 
     .block-login--we_mobile__cta {
         all: unset;
@@ -1844,11 +1849,13 @@ h1 {
     }
 
     .form-group.block-login--Controls {
-        all:unset;
+        all: unset;
+        display: -ms-flexbox;
         display: flex;
-        width: 64%;
+        width: 63%;
+        -ms-flex-pack: justify;
         justify-content: space-between;
-        margin: 0 4rem;
+        padding: 0 5rem;
     }
 
     div.block-login--Controls>div {
@@ -1861,8 +1868,7 @@ h1 {
         justify-content: flex-end;
         display: flex;
     }
-
-}
+    }
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
@@ -2011,8 +2017,7 @@ h1 {
 }
 
 
-
-.block-login--first_time >ul {
+div.block-login--first_time ul {
     padding-left: 20px;
 }
 
