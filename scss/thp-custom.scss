@@ -1616,6 +1616,14 @@ h1 {
     padding: 5px 0;
 }
 
+@media screen and (max-width: 300px) {
+
+    .form-group.block-login--Controls>*,
+    .form-group.block-login--Controls {
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
         display: flex;
@@ -1779,9 +1787,9 @@ h1 {
         gap: 15px;
     }
 
-        .col-sm-10.col-md-8.col-lg-7.block-login--loginPanel {
-            width: 70.5%;
-        }
+    .col-sm-10.col-md-8.col-lg-7.block-login--loginPanel {
+        width: 70.5%;
+    }
 
     .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
         display: -ms-flexbox;
@@ -1794,6 +1802,7 @@ h1 {
         padding: 0;
         margin-left: 0;
     }
+
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
         display: -ms-flexbox;
         display: flex;
@@ -1843,19 +1852,20 @@ h1 {
     }
 
     .block-login--Controls_container {
-        width: 100%;
+        all: unset;
         display: flex;
-        justify-content: flex-end;
+        margin-left: 130px;
     }
 
     .form-group.block-login--Controls {
         all: unset;
         display: -ms-flexbox;
         display: flex;
-        width: 63%;
         -ms-flex-pack: justify;
         justify-content: space-between;
         padding: 0 5rem;
+        margin-right: -9px;
+        width: 331px;
     }
 
     div.block-login--Controls>div {
@@ -1868,7 +1878,7 @@ h1 {
         justify-content: flex-end;
         display: flex;
     }
-    }
+}
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
@@ -1905,12 +1915,8 @@ h1 {
     }
 
     .form-group.block-login--Controls {
-          all: unset;
-        width: 340px;
-        padding: 0;
-        margin: 0px 0rem;
-        justify-content: left;
-        display: flex;
+        all: unset;
+        width: 339px;
     }
 
     select#LoginRole {
@@ -1919,10 +1925,9 @@ h1 {
     }
 
     .block-login--Controls_container {
-        width: 100%;
+        all: unset;
         display: flex;
-        justify-content: center;
-        margin-left: 7rem;
+        margin-left: 194px;
     }
 
     div.block-login--Controls>div {
@@ -1939,6 +1944,8 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) {
+
+
     .col-sm-10.col-md-8.col-lg-7.block-login--loginPanel {
         width: 65%;
     }
@@ -1977,22 +1984,23 @@ h1 {
         width: 210px;
     }
 
-    .form-group.block-login--Controls {
-        display: flex;
-        // width: 64.7%;
-        // justify-content: space-between;
-        // margin: 0 5rem;
-        all: unset;
-        width: 450px;
-        padding: 0;
-        margin: 0px 0rem;
-        margin-right: 1rem;
-        justify-content: left;
-    }
 
     select#LoginRole {
         height: 36px;
         width: auto;
+    }
+
+    .block-login--Controls_container {
+        width: 100%;
+        display: flex;
+        // justify-content: flex-end;
+        justify-content: center;
+        margin-left: 8rem;
+    }
+
+    .form-group.block-login--Controls {
+        all: unset;
+        width: 415px;
     }
 
     div.block-login--Controls>div {
@@ -2001,21 +2009,11 @@ h1 {
         margin: 0;
     }
 
-
-    .block-login--Controls_container {
-        width: 100%;
-        display: flex;
-        // justify-content: flex-end;
-        justify-content: center;
-        margin-left: 7rem;
-    }
-
     .block-login--Controls .input-group {
         justify-content: flex-end;
         display: flex;
     }
 }
-
 
 div.block-login--first_time ul {
     padding-left: 20px;
