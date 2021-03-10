@@ -1714,10 +1714,11 @@ h1 {
     .block-login--we_mobile__storelinks img {
         width: 100%;
     }
-    .form-group.block-login--Controls{
-        display:flex;
-        justify-content:flex-end;
-        gap:15px;
+
+    .form-group.block-login--Controls {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
     }
 }
 
@@ -1761,10 +1762,11 @@ h1 {
         margin: 0;
         padding: 0;
     }
-    .form-group.block-login--Controls{
-        display:flex;
-        justify-content:flex-end;
-        gap:15px;
+
+    .form-group.block-login--Controls {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
     }
 }
 
@@ -1780,7 +1782,7 @@ h1 {
 
     block-login--loginPanel {
         all: unset;
-        width: 73.3333%;
+        width: 70.5%;
     }
 
     .col-sm-2.col-md-3.col-lg-4.block-login--first_time {
@@ -1788,8 +1790,8 @@ h1 {
         flex-direction: column;
         width: 160px;
         height: fit-content;
-        padding: 0 0 0 1rem;
-        margin-left: 0.2rem;
+         margin-left: 0.2rem;
+        padding-left:20px;
     }
 
 
@@ -1830,22 +1832,9 @@ h1 {
         width: 210px;
     }
 
-    .form-group.block-login--Controls {
-        display: flex;
-        width: 64.7%;
-        justify-content: space-between;
-        margin: 0 5rem;
-    }
-
     select#LoginRole {
         height: 36px;
         width: auto;
-    }
-
-    div.block-login--Controls > div {
-        width: 50%;
-        padding: 0rem;
-        margin: 0;
     }
 
     .block-login--Controls_container {
@@ -1854,40 +1843,25 @@ h1 {
         justify-content: flex-end;
     }
 
-    .block-login--Controls .input-group {
-        justify-content: flex-end;
-        display: flex;
-    }
     .form-group.block-login--Controls {
+        all:unset;
         display: flex;
-        width: 64.7%;
+        width: 64%;
         justify-content: space-between;
-        margin: 0 5rem;
+        margin: 0 4rem;
     }
 
-    select#LoginRole {
-        height: 36px;
-        width: auto;
-    }
-
-    div.block-login--Controls > div {
+    div.block-login--Controls>div {
         width: 50%;
         padding: 0rem;
         margin: 0;
     }
 
-    .col-sm-offset-3.col-sm-8 {}
-
-    .block-login--Controls_container {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
     .block-login--Controls .input-group {
         justify-content: flex-end;
         display: flex;
     }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
@@ -1923,11 +1897,14 @@ h1 {
     .block-login--we_mobile__storelinks img {
         width: 210px;
     }
+
     .form-group.block-login--Controls {
+          all: unset;
+        width: 340px;
+        padding: 0;
+        margin: 0px 0rem;
+        justify-content: left;
         display: flex;
-        width: 64.7%;
-        justify-content: space-between;
-        margin: 0 5rem;
     }
 
     select#LoginRole {
@@ -1935,19 +1912,19 @@ h1 {
         width: auto;
     }
 
-    div.block-login--Controls > div {
+    .block-login--Controls_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 7rem;
+    }
+
+    div.block-login--Controls>div {
         width: 50%;
         padding: 0rem;
         margin: 0;
     }
 
-    .col-sm-offset-3.col-sm-8 {}
-
-    .block-login--Controls_container {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
 
     .block-login--Controls .input-group {
         justify-content: flex-end;
@@ -1956,13 +1933,18 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) {
+    .col-sm-10.col-md-8.col-lg-7.block-login--loginPanel {
+        width: 65%;
+    }
+
     .col-sm-2.col-md-3.col-lg-4.block-login--we_mobile {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         flex-flow: wrap;
-        width: 670px;
+        // width: 670px;
+        width: 780px;
         margin: 0 auto;
         padding: 0px 15px;
         height: 100%;
@@ -1988,11 +1970,18 @@ h1 {
     .block-login--we_mobile__storelinks img {
         width: 210px;
     }
+
     .form-group.block-login--Controls {
         display: flex;
-        width: 64.7%;
-        justify-content: space-between;
-        margin: 0 5rem;
+        // width: 64.7%;
+        // justify-content: space-between;
+        // margin: 0 5rem;
+        all: unset;
+        width: 450px;
+        padding: 0;
+        margin: 0px 0rem;
+        margin-right: 1rem;
+        justify-content: left;
     }
 
     select#LoginRole {
@@ -2000,22 +1989,37 @@ h1 {
         width: auto;
     }
 
-    div.block-login--Controls > div {
+    div.block-login--Controls>div {
         width: 50%;
         padding: 0rem;
         margin: 0;
     }
 
-    .col-sm-offset-3.col-sm-8 {}
 
     .block-login--Controls_container {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
+        // justify-content: flex-end;
+        justify-content: center;
+        margin-left: 7rem;
     }
 
     .block-login--Controls .input-group {
         justify-content: flex-end;
         display: flex;
     }
+}
+
+
+
+.block-login--first_time >ul {
+    padding-left: 20px;
+}
+
+select#LoginRole {
+    width: fit-content;
+}
+
+.block-login--we_mobile__cta {
+    border-radius: 5px;
 }
